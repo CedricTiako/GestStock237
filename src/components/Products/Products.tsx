@@ -197,10 +197,10 @@ export const Products: React.FC = () => {
                       <td className="px-6 py-4">
                         <div className="text-sm">
                           <div className="text-gray-900">
-                            Vente: {formatCurrency(product.sellPrice)}
+                            Vente : {formatCurrency(product.sellPrice)}
                           </div>
                           <div className="text-gray-500">
-                            Achat: {formatCurrency(product.buyPrice)}
+                            Achat : {formatCurrency(product.buyPrice)}
                           </div>
                         </div>
                       </td>

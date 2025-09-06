@@ -78,7 +78,7 @@ const translations = {
     'common.search': 'Rechercher...',
     'common.loading': 'Chargement...',
     'common.noData': 'Aucune donnée disponible',
-    'common.fcfa': 'FCFA',
+    'common.fcfa': 'F CFA',
 
     // Units
     'unit.piece': 'Pièce',
@@ -169,7 +169,7 @@ const translations = {
     'common.search': 'Search...',
     'common.loading': 'Loading...',
     'common.noData': 'No data available',
-    'common.fcfa': 'XAF',
+    'common.fcfa': 'F CFA',
 
     // Units
     'unit.piece': 'Piece',

@@ -160,7 +160,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({ product, onSave, onCan
 
             <div>
               <label htmlFor="buyPrice" className="block text-sm font-medium text-gray-700 mb-2">
-                {t('products.buyPrice')} (FCFA) *
+                {t('products.buyPrice')} ({t('common.fcfa')}) *
               </label>
               <input
                 type="number"
@@ -176,7 +176,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({ product, onSave, onCan
 
             <div>
               <label htmlFor="sellPrice" className="block text-sm font-medium text-gray-700 mb-2">
-                {t('products.sellPrice')} (FCFA) *
+                {t('products.sellPrice')} ({t('common.fcfa')}) *
               </label>
               <input
                 type="number"

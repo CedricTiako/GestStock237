@@ -164,8 +164,8 @@ export const SaleForm: React.FC<SaleFormProps> = ({ onSave, onCancel }) => {
 
           {selectedProduct && (
             <div className="mt-3 text-sm text-gray-600">
-              Prix unitaire: {formatCurrency(selectedProduct.sellPrice)} | 
-              Stock disponible: {selectedProduct.currentStock}
+              Prix unitaire : {formatCurrency(selectedProduct.sellPrice)} | 
+              Stock disponible : {selectedProduct.currentStock}
             </div>
           )}
         </div>

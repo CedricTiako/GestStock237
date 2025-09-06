@@ -159,8 +159,8 @@ export const mockRecentMovements: StockMovement[] = [
 ];
 
 export const mockDashboardStats: DashboardStats = {
-  todaySales: 487500,
-  monthSales: 8750000,
+  todaySales: 487500, // 487 500 F CFA
+  monthSales: 8750000, // 8 750 000 F CFA
   totalProducts: mockProducts.length,
   lowStockCount: mockProducts.filter(p => p.currentStock <= p.minStock).length,
   totalSuppliers: mockSuppliers.length,
